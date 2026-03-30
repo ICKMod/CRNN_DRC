@@ -1,4 +1,4 @@
-# KineticWorkflow
+# CRNN_DRC
 Supplementary information/code for the publication at DOI: 
 
 Julia workflows for kinetic-network simulation and analysis used in the paper cases (`case1`, `case2`, `case3`).
