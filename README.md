@@ -1,7 +1,7 @@
 # CRNN_DRC
 Supplementary information/code for the publication at DOI: 
 
-Julia workflows for kinetic-network simulation and analysis used in the paper cases (`case1`, `case2`, `case3`).
+Julia workflows for kinetic network simulation and analysis used in the paper cases (`case1`, `case2`, `case3`).
 
 ## Contents
 
@@ -115,6 +115,6 @@ For each gas species `X`:
 
 ## Notes
 
-- Scripts are designed for direct case-folder execution so relative paths resolve correctly.
+- Scripts are designed for direct case folder execution so relative paths resolve correctly.
 - If your terminal does not support interactive prompts, pass arguments and/or environment variables where available.
 - For reproducible figures, keep the same `analysis_points`, tolerances, and solver settings across cases.
