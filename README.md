@@ -26,7 +26,7 @@ Each `workflow.jl` is interactive and runs the full pipeline:
 
 ## Requirements
 
-- Julia `1.9+` (recommended)
+- Julia `1.6.7` (recommended)
 - Packages used by scripts:
   - `CSV`
   - `DataFrames`
