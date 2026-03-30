@@ -19,7 +19,7 @@ Code/
 ```
 
 Each `workflow.jl` is interactive and runs the full pipeline:
-- profile generation (`Profile_ss.csv` or `Profile_ts.csv`, plus `Profiles_*.png`)
+- profile generation (`Profile_ss.csv` or `Profile_ts.csv`)
 - DRC analysis
 - apparent activation energy (`E_app`)
 - apparent reaction orders (`n_X`)
