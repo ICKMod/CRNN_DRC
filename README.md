@@ -13,7 +13,10 @@ Code/
 ├── case2/
 │   ├── data.csv
 │   └── workflow.jl
-└── case3/
+├── case3/
+│   ├── data.csv
+│   └── workflow.jl
+└── case3_reduced/
     ├── data.csv
     └── workflow.jl
 ```
