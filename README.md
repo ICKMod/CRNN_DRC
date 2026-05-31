@@ -1,4 +1,4 @@
-# FinalPaper Code
+# A Unified Workflow for Sensitivity Based Kinetic Analysis in Microkinetic Models
 
 Julia workflows for kinetic-network simulation and local sensitivity analysis used in the paper cases (`case1`, `case2`, `case3`). Each case folder contains a reaction-network input file, usually `data.csv`, and a copy of `workflow.jl`.
 
