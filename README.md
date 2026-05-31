@@ -364,27 +364,8 @@ Run another target? Press ESC then Enter to exit; Enter to continue
 
 Press Enter to analyze another target species without restarting the script. Type `n`, `no`, `q`, `quit`, or `exit`, or press Escape then Enter, to stop.
 
-## Notes and best practices
+## Notes
 
-- Run the script from inside each case directory so output files are written to the correct folder.
-- Use the same solver, tolerances, analysis grid, and profile grid when comparing cases.
 - For difficult stiff systems, increase `DRC_MAXITERS` or choose a stiff solver such as `Rodas5P`, `Rodas5`, `TRBDF2`, or `Kvaerno5`.
 - When using Arrhenius data, keep the activation-energy unit consistent with the CSV file.
 - When using state-enthalpy decomposition, choose reference states that match the thermodynamic convention used in the manuscript.
-- If running non-interactively on a remote workstation, set the required environment variables before launching the script.
-
-Example non-interactive-style setup:
-
-```bash
-export DRC_STEADY_STATE=y
-export DRC_TARGET=CO2
-export DRC_SOURCE=arrhenius
-export DRC_PAIR="(kf,kr)"
-export DRC_EA_UNIT="kJ/mol"
-export DRC_B_ARR=0.0
-export DRC_ALG=Rodas5P
-export DRC_MAXITERS=500000
-export DRC_ENTHALPY_REFERENCES="*=0,O2=0"
-
-julia workflow.jl data.csv CO2
-```
