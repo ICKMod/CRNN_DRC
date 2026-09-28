@@ -374,6 +374,6 @@ Press Enter to analyze another target species without restarting the script. Typ
 
 # Cite
 
-Jay Shukla, Qin Wu; A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models. Ind. Eng. Chem. Res. 15 July 2026; 65 (27): 14161–14176., (https://doi.org/10.1021/acs.iecr.6c01462)
+Jay Shukla, Qin Wu; A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models. Ind. Eng. Chem. Res. 15 July 2026; 65 (27): 14161–14176. (https://doi.org/10.1021/acs.iecr.6c01462)
 
 
