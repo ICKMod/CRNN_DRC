@@ -1,5 +1,7 @@
 # A Unified Workflow for Sensitivity Based Kinetic Analysis in Microkinetic Models
 
+Code for the publication: **[A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models]([https://pubs.acs.org/doi/full/10.1021/acs.jpclett.5c00665](https://pubs.acs.org/iecred/article/65/27/14161/5201482/A-Unified-Workflow-for-Sensitivity-Based-Kinetic))**
+
 Julia workflows for kinetic-network simulation and local sensitivity analysis used in the paper cases (`case1`, `case2`, `case3`). Each case folder contains a reaction-network input file, usually `data.csv`, and a copy of `workflow.jl`.
 
 The script reads an elementary reaction table, builds a stoichiometric kinetic model, solves either transient or steady-state profiles, and computes local sensitivity descriptors for a selected target species.
