@@ -1,6 +1,6 @@
 # A Unified Workflow for Sensitivity Based Kinetic Analysis in Microkinetic Models
 
-Code for the publication: **[A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models](https://pubs.acs.org/doi/full/10.1021/acs.jpclett.5c00665)**
+Code for the publication: **[A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models](https://doi.org/10.1021/acs.iecr.6c01462)**
 
 Julia workflows for kinetic-network simulation and local sensitivity analysis used in the paper cases (`case1`, `case2`, `case3`). Each case folder contains a reaction-network input file, usually `data.csv`, and a copy of `workflow.jl`.
 
@@ -371,3 +371,9 @@ Press Enter to analyze another target species without restarting the script. Typ
 - For difficult stiff systems, increase `DRC_MAXITERS` or choose a stiff solver such as `Rodas5P`, `Rodas5`, `TRBDF2`, or `Kvaerno5`.
 - When using Arrhenius data, keep the activation-energy unit consistent with the CSV file.
 - When using state-enthalpy decomposition, choose reference states that match the thermodynamic convention used in the manuscript.
+
+# Cite
+
+Jay Shukla, Qin Wu; A Unified Workflow for Sensitivity-Based Kinetic Analysis in Microkinetic Models. Ind. Eng. Chem. Res. 15 July 2026; 65 (27): 14161–14176., (https://doi.org/10.1021/acs.iecr.6c01462)
+
+
